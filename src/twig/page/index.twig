@@ -1,0 +1,21 @@
+{% extends '../layout/_00_base.twig' %}
+
+{# トップページはタイトル設定不要 #}
+{% set pageTitle = '' %}
+
+{# ページID設定 #}
+{% set pageId = 'top' %}
+
+{# ページ個別　CSS等 #}
+{% block headArea %}
+<link rel="stylesheet" type="text/css" href="/inc/css/page/top.css">
+{% endblock %}
+
+{# コンテンツをここに記載(div#main) #}
+{% block main %}
+
+{% endblock %}
+
+{# ページ個別　JS等 #}
+{% block jsArea %}
+{% endblock %}
