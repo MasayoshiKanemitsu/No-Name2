@@ -82,12 +82,6 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//sampleというオブジェクト扱いで、変数をすべてインポート
-//import
-console.log(values.name + " " + values.age + " " + values.live);
-console.log(values.arg);
-values.foo("Hi,Tom.");
-
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
