@@ -1,8 +1,8 @@
 {
-  "siteName": "No-Name",
-  "domain": "http://●●●●●●●●●.co.jp/",
+  "siteName": "サイト名",
+  "domain": "https://●●●●.co.jp",
   "companyName": "会社名",
-  "keywords": "キーワード",
-  "description": "ディスクリプション",
+  "keywords": "",
+  "description": "",
   "responsive": true
 }

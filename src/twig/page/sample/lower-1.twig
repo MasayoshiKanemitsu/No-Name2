@@ -1,21 +1,27 @@
-{% extends '../../layout/_01_lower.twig' %}
+{% extends '../../layout/_02_layer2.twig' %}
 
 {# ページタイトル設定 #}
-{% set pageTitle = 'サンプル下層ページ1' %}
+{% set pageTitle = 'サンプルページ(2階層内)' %}
 
 {# ページID設定 #}
-{% set pageId = 'lower' %}
+{% set pageId = '' %}
+{% set currentID = '' %}
+
+{# OGP関連設定
+※descriptionを記入しなければ、「〇〇」の「〇〇」のページです。とデフォルトの文言が出力されます。
+※ogurlはルート相対パスで「必ず」記入してください
+※ページ毎にOGP画像を変更した場合は、ogimagepathに画像のパスをルート相対パスで入力してください。記述がなければ、デフォルトのOGP画像が表示されます。　#}
+{% set description = '' %}
+{% set ogurlpath = '' %}
+{% set ogimagepath = '' %}
 
 {# ページ個別 CSS等 #}
 {% block headArea %}
-{{parent()}}
+  {{parent()}}
 {% endblock %}
 
 {# コンテンツをここに記載(div#contents内) #}
 {% block contents %}
-
-<p>下層ページ[lower1]</p>
-
 {% endblock %}
 
 {# ページ個別　JS等 #}

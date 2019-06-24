@@ -7,7 +7,8 @@
 @import "base/ress"; // 初期化CSS
 @import "base/base"; // 共通部分
 @import "base/layout"; // レイアウト
-//@import "base/lower"; // 下層共通CSS(下層用SCSSにimport)
+@import "base/lower"; // 下層共通CSS(下層用SCSSにimport)
+
 @import "base/gridlex/gridlex"; //グリッド用
 @import "util/fontawesome/font-awesome"; //アイコンフォント
 

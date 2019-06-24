@@ -9,10 +9,8 @@
       new ViewportExtra(375)//5s対応
     </script>
     <meta name="format-detection" content="telephone=no">
-    <title>{% if pageTitle %}{{pageTitle}}｜{% endif %}{{siteName}}</title>
+    <title>{% if pageTitle %}{{pageTitle}}｜{% endif %}{% if lowCat.catlayer2.name %}{{lowCat.catlayer2.name}}｜{% endif %}{{siteName}}</title>
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <meta name="keywords" content="{{keywords}}"/>
-    <meta name="description" content="{{description}}">
     {% include ('../include/_ogp.twig') %}
     {% if not disableBaseStyle %}<link rel="stylesheet" type="text/css" href="/inc/css/style.css">{% endif %}
     {% block headArea %}{% endblock %}
