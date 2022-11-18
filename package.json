@@ -63,7 +63,7 @@
     "vue-template-compiler": "^2.3.2",
     "vue-touch": "next",
     "webpack": "^3.10.0",
-    "webpack-stream": "^3.2.0"
+    "webpack-stream": "^7.0.0"
   },
   "dependencies": {
     "gulp-sourcemaps": "^2.6.1",
